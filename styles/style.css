@@ -1,0 +1,38 @@
+table, th, td {
+    border: 10px solid rgb(0, 0, 0);
+    margin-left:auto;
+    margin-right: auto;
+    padding: 50px 30px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+
+body {
+    text-align: center;
+    background-color: rgb(181, 123, 81);
+    color: black;
+}
+caption {
+    border: 10px solid black;
+    border-radius: 10px;
+    background-color: #333;
+    color: whitesmoke
+
+}
+table,col,th, caption:nth-child(even) {
+    background-color: #333;
+}
+table,col:nth-child(even) {
+    background-color: rgb(181, 123, 81);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #7f5231;
+}
+
+tbody tr:hover {
+    background-color:rgb(201, 170, 116);
+}
